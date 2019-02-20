@@ -1,8 +1,6 @@
 ## Put comments here that give an overall description of what your
 ## functions do
-
-## Write a short comment describing this function
-"A function that prints a 2X2 matrix which can be accessed faster"
+## #makeCacheMatrix creates a new cached matrix where the matrix and its inverse can be cached.
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
         set <- function(y) {
@@ -17,7 +15,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-## a function that prints a 2x2 matrix with more decimals##
+## CacheSolve is a function that solves the inverse og the matrix and caches it.
 cacheSolve <- function(x, ...) {
         inv <- x$getinverse()
         if(!is.null(inv)) {
