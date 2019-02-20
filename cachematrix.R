@@ -13,7 +13,6 @@ makeCacheMatrix <- function(x = matrix()) {
         list(set=set, get=get, setinverse=setinverse, getinverse=getinverse)
 }
 
-
 ## Write a short comment describing this function
 ## CacheSolve is a function that solves the inverse og the matrix and caches it.
 cacheSolve <- function(x, ...) {
